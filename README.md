@@ -1,3 +1,3 @@
-# `@sogouda/portal-desktop-server`
+# `@sogouda/portal-net-desktop`
 
-The backend server for the Portal Net desktop app.
+The Portal Net desktop app.
