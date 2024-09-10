@@ -1,2 +1,3 @@
-# portal-desktop-server
-Portal - Desktop App - Server
+# `@sogouda/portal-desktop-server`
+
+The backend server for the Portal Net desktop app.
