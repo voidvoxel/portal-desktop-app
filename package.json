@@ -1,0 +1,22 @@
+{
+  "name": "@sogouda/portal-net-desktop",
+  "version": "0.1.0",
+  "description": "The Portal Net Desktop app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://src.voidvoxel.dev/portal-desktop-app"
+  },
+  "keywords": [
+    "desktop-app",
+    "p2p",
+    "p2p-network",
+    "p2p-mesh",
+    "portal-net"
+  ],
+  "author": "Ashlynn Juniper",
+  "license": "MPL-2.0"
+}
