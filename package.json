@@ -4,6 +4,7 @@
   "description": "The Portal Net Desktop app",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/scripts/start.js",
     "test": "jest"
   },
   "repository": {
@@ -18,5 +19,8 @@
     "portal-net"
   ],
   "author": "Ashlynn Juniper",
-  "license": "MPL-2.0"
+  "license": "MPL-2.0",
+  "dependencies": {
+    "raylib": "^0.14.0"
+  }
 }
