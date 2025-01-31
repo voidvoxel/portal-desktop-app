@@ -4,7 +4,9 @@
   "description": "The Portal Net Desktop app",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/scripts/start.js",
+    "build": "npm run build:exportgen",
+    "build:exportgen": "exportgen .",
+    "start": "node src/bin/portal-desktop.js",
     "test": "jest"
   },
   "repository": {
@@ -18,9 +20,14 @@
     "p2p-mesh",
     "portal-net"
   ],
-  "author": "Ashlynn Juniper",
+  "author": "Ashe Lynn Juniper",
   "license": "MPL-2.0",
   "dependencies": {
-    "raylib": "^0.14.0"
+    "express": "5.0.1",
+    "raylib": "^0.14.0",
+    "sogouda": "^0.2.3"
+  },
+  "devDependencies": {
+    "exportgen": "^0.1.5"
   }
 }

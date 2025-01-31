@@ -1,4 +1,5 @@
-const Application = require("./Application");
-
-
-module.exports = { Application };
+module.exports = {
+    client: require("./client"),
+    server: require("./server"),
+    DesktopApplication: require("./DesktopApplication")
+};
